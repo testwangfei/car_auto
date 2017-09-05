@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="12" total="26" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="169208" started-at="2017-08-30T05:36:13Z" finished-at="2017-08-30T05:39:03Z">
+    <groups>
+      <group name="Init">
+        <method signature="AuditTest.FinalAuditTest()[pri:6, instance:com.chedai.test.AuditTest@1f28c152]" name="FinalAuditTest" class="com.chedai.test.AuditTest"/>
+        <method signature="AuditTest.PreliminaryAuditTest()[pri:5, instance:com.chedai.test.AuditTest@1f28c152]" name="PreliminaryAuditTest" class="com.chedai.test.AuditTest"/>
+        <method signature="AuditTest.assessAuditTest()[pri:7, instance:com.chedai.test.AuditTest@1f28c152]" name="assessAuditTest" class="com.chedai.test.AuditTest"/>
+        <method signature="AuditTest.qualityAuditTest()[pri:4, instance:com.chedai.test.AuditTest@1f28c152]" name="qualityAuditTest" class="com.chedai.test.AuditTest"/>
+        <method signature="ContractReviewTest.ContractSign()[pri:11, instance:com.chedai.test.ContractReviewTest@3a5ed7a6]" name="ContractSign" class="com.chedai.test.ContractReviewTest"/>
+        <method signature="ContractSignTest.ContractSign()[pri:10, instance:com.chedai.test.ContractSignTest@7791a895]" name="ContractSign" class="com.chedai.test.ContractSignTest"/>
+        <method signature="CreditEvaluationTest.newCredit()[pri:2, instance:com.chedai.test.CreditEvaluationTest@369f73a2]" name="newCredit" class="com.chedai.test.CreditEvaluationTest"/>
+        <method signature="CreditEvaluationTest.newEvaluation()[pri:3, instance:com.chedai.test.CreditEvaluationTest@369f73a2]" name="newEvaluation" class="com.chedai.test.CreditEvaluationTest"/>
+        <method signature="LoanTest.SendTenderAuditTest()[pri:13, instance:com.chedai.test.LoanTest@6325a3ee]" name="SendTenderAuditTest" class="com.chedai.test.LoanTest"/>
+        <method signature="LoanTest.sendApplicationTest()[pri:12, instance:com.chedai.test.LoanTest@6325a3ee]" name="sendApplicationTest" class="com.chedai.test.LoanTest"/>
+        <method signature="NewPackTest.LoginTest()[pri:0, instance:com.chedai.test.NewPackTest@731a74c]" name="LoginTest" class="com.chedai.test.NewPackTest"/>
+        <method signature="NewPackTest.newPack()[pri:1, instance:com.chedai.test.NewPackTest@731a74c]" name="newPack" class="com.chedai.test.NewPackTest"/>
+        <method signature="ReportTheContractTest.AgreeReview()[pri:8, instance:com.chedai.test.ReportTheContractTest@7d907bac]" name="AgreeReview" class="com.chedai.test.ReportTheContractTest"/>
+        <method signature="ReportTheContractTest.SignContract()[pri:9, instance:com.chedai.test.ReportTheContractTest@7d907bac]" name="SignContract" class="com.chedai.test.ReportTheContractTest"/>
+      </group> <!-- Init -->
+    </groups>
+    <test name="test" duration-ms="169208" started-at="2017-08-30T05:36:13Z" finished-at="2017-08-30T05:39:03Z">
+      <class name="com.chedai.test.LoanTest">
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.LoanTest@6325a3ee]" name="AdminLoginTest" is-config="true" duration-ms="592" started-at="2017-08-30T13:38:42Z" finished-at="2017-08-30T13:38:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="sendApplicationTest()[pri:12, instance:com.chedai.test.LoanTest@6325a3ee]" name="sendApplicationTest" duration-ms="10288" started-at="2017-08-30T13:38:43Z" finished-at="2017-08-30T13:38:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendApplicationTest -->
+        <test-method status="PASS" signature="SendTenderAuditTest()[pri:13, instance:com.chedai.test.LoanTest@6325a3ee]" name="SendTenderAuditTest" duration-ms="9446" started-at="2017-08-30T13:38:53Z" finished-at="2017-08-30T13:39:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendTenderAuditTest -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.LoanTest@6325a3ee]" name="logouttest" is-config="true" duration-ms="194" started-at="2017-08-30T13:39:02Z" finished-at="2017-08-30T13:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.chedai.test.LoanTest -->
+      <class name="com.chedai.test.NewPackTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.chedai.test.NewPackTest@731a74c]" name="setUp" is-config="true" duration-ms="2130" started-at="2017-08-30T13:36:11Z" finished-at="2017-08-30T13:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.NewPackTest@731a74c]" name="AdminLoginTest" is-config="true" duration-ms="872" started-at="2017-08-30T13:36:13Z" finished-at="2017-08-30T13:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.chedai.test.NewPackTest@731a74c]" name="LoginTest" duration-ms="792" started-at="2017-08-30T13:36:14Z" finished-at="2017-08-30T13:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="newPack()[pri:1, instance:com.chedai.test.NewPackTest@731a74c]" name="newPack" duration-ms="4826" started-at="2017-08-30T13:36:15Z" finished-at="2017-08-30T13:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newPack -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.NewPackTest@731a74c]" name="logouttest" is-config="true" duration-ms="475" started-at="2017-08-30T13:36:20Z" finished-at="2017-08-30T13:36:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.chedai.test.NewPackTest@731a74c]" name="tearDown" is-config="true" duration-ms="761" started-at="2017-08-30T13:39:03Z" finished-at="2017-08-30T13:39:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.chedai.test.NewPackTest -->
+      <class name="com.chedai.test.ReportTheContractTest">
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.ReportTheContractTest@7d907bac]" name="AdminLoginTest" is-config="true" duration-ms="698" started-at="2017-08-30T13:38:01Z" finished-at="2017-08-30T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="AgreeReview()[pri:8, instance:com.chedai.test.ReportTheContractTest@7d907bac]" name="AgreeReview" duration-ms="3488" started-at="2017-08-30T13:38:02Z" finished-at="2017-08-30T13:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AgreeReview -->
+        <test-method status="PASS" signature="SignContract()[pri:9, instance:com.chedai.test.ReportTheContractTest@7d907bac]" name="SignContract" duration-ms="7179" started-at="2017-08-30T13:38:06Z" finished-at="2017-08-30T13:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignContract -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.ReportTheContractTest@7d907bac]" name="logouttest" is-config="true" duration-ms="184" started-at="2017-08-30T13:38:13Z" finished-at="2017-08-30T13:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.chedai.test.ReportTheContractTest -->
+      <class name="com.chedai.test.ContractSignTest">
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.ContractSignTest@7791a895]" name="AdminLoginTest" is-config="true" duration-ms="1029" started-at="2017-08-30T13:38:13Z" finished-at="2017-08-30T13:38:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="ContractSign()[pri:10, instance:com.chedai.test.ContractSignTest@7791a895]" name="ContractSign" duration-ms="16947" started-at="2017-08-30T13:38:14Z" finished-at="2017-08-30T13:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContractSign -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.ContractSignTest@7791a895]" name="logouttest" is-config="true" duration-ms="238" started-at="2017-08-30T13:38:31Z" finished-at="2017-08-30T13:38:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.chedai.test.ContractSignTest -->
+      <class name="com.chedai.test.CreditEvaluationTest">
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.CreditEvaluationTest@369f73a2]" name="AdminLoginTest" is-config="true" duration-ms="638" started-at="2017-08-30T13:36:20Z" finished-at="2017-08-30T13:36:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="newCredit()[pri:2, instance:com.chedai.test.CreditEvaluationTest@369f73a2]" name="newCredit" duration-ms="26283" started-at="2017-08-30T13:36:21Z" finished-at="2017-08-30T13:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCredit -->
+        <test-method status="PASS" signature="newEvaluation()[pri:3, instance:com.chedai.test.CreditEvaluationTest@369f73a2]" name="newEvaluation" duration-ms="20367" started-at="2017-08-30T13:36:47Z" finished-at="2017-08-30T13:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newEvaluation -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.CreditEvaluationTest@369f73a2]" name="logouttest" is-config="true" duration-ms="175" started-at="2017-08-30T13:37:08Z" finished-at="2017-08-30T13:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.chedai.test.CreditEvaluationTest -->
+      <class name="com.chedai.test.AuditTest">
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.AuditTest@1f28c152]" name="AdminLoginTest" is-config="true" duration-ms="696" started-at="2017-08-30T13:37:08Z" finished-at="2017-08-30T13:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="qualityAuditTest()[pri:4, instance:com.chedai.test.AuditTest@1f28c152]" name="qualityAuditTest" duration-ms="13371" started-at="2017-08-30T13:37:09Z" finished-at="2017-08-30T13:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- qualityAuditTest -->
+        <test-method status="PASS" signature="PreliminaryAuditTest()[pri:5, instance:com.chedai.test.AuditTest@1f28c152]" name="PreliminaryAuditTest" duration-ms="13138" started-at="2017-08-30T13:37:22Z" finished-at="2017-08-30T13:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PreliminaryAuditTest -->
+        <test-method status="PASS" signature="FinalAuditTest()[pri:6, instance:com.chedai.test.AuditTest@1f28c152]" name="FinalAuditTest" duration-ms="13468" started-at="2017-08-30T13:37:35Z" finished-at="2017-08-30T13:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FinalAuditTest -->
+        <test-method status="PASS" signature="assessAuditTest()[pri:7, instance:com.chedai.test.AuditTest@1f28c152]" name="assessAuditTest" duration-ms="12677" started-at="2017-08-30T13:37:49Z" finished-at="2017-08-30T13:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assessAuditTest -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.AuditTest@1f28c152]" name="logouttest" is-config="true" duration-ms="215" started-at="2017-08-30T13:38:01Z" finished-at="2017-08-30T13:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.chedai.test.AuditTest -->
+      <class name="com.chedai.test.ContractReviewTest">
+        <test-method status="PASS" signature="AdminLoginTest()[pri:0, instance:com.chedai.test.ContractReviewTest@3a5ed7a6]" name="AdminLoginTest" is-config="true" duration-ms="661" started-at="2017-08-30T13:38:31Z" finished-at="2017-08-30T13:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdminLoginTest -->
+        <test-method status="PASS" signature="ContractSign()[pri:11, instance:com.chedai.test.ContractReviewTest@3a5ed7a6]" name="ContractSign" duration-ms="9983" started-at="2017-08-30T13:38:32Z" finished-at="2017-08-30T13:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContractSign -->
+        <test-method status="PASS" signature="logouttest()[pri:0, instance:com.chedai.test.ContractReviewTest@3a5ed7a6]" name="logouttest" is-config="true" duration-ms="245" started-at="2017-08-30T13:38:42Z" finished-at="2017-08-30T13:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logouttest -->
+      </class> <!-- com.chedai.test.ContractReviewTest -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>

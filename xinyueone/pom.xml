@@ -1,0 +1,112 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.xinyue.core</groupId>
+  <artifactId>xinyueone</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>xinyueone</name>
+  <url>http://maven.apache.org</url>
+
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+
+<build>  
+        <plugins>  
+            <!-- 解决MAVEN test命令时console出现中文乱码乱码 -->  
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-surefire-plugin</artifactId>  
+                <version>2.7.2</version>  
+                <configuration>  
+                    <forkMode>once</forkMode>  
+                    <argLine>-Dfile.encoding=UTF-8</argLine>   
+						<suiteXmlFiles>
+					           <suiteXmlFile>testng.xml</suiteXmlFile>
+					         </suiteXmlFiles>
+                </configuration>  
+            </plugin>  
+
+           </plugins>
+    </build>  
+
+
+
+
+
+
+
+
+  <dependencies>
+
+     <!--selenium自动化测试-->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.4.0</version>
+	</dependency>   
+    
+    <!-- testng自动化测试 -->
+    <dependency>
+	    <groupId>org.testng</groupId>
+	    <artifactId>testng</artifactId>
+	    <version>6.10</version>
+	    <scope>test</scope>
+	</dependency>
+    
+    <!--log4j日志相关 -->
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
+    
+    	<!-- 读取excel文件需要 -->
+	<dependency>
+	    <groupId>net.sourceforge.jexcelapi</groupId>
+	    <artifactId>jxl</artifactId>
+	    <version>2.6.12</version>
+	</dependency>
+	
+	<!-- 输入报告需要 -->
+	<dependency>
+	    <groupId>net.sf.saxon</groupId>
+	    <artifactId>saxon</artifactId>
+	    <version>8.7</version>
+	</dependency>
+
+	<!-- reportng -->
+	<dependency>
+	    <groupId>org.uncommons</groupId>
+	    <artifactId>reportng</artifactId>
+	    <version>1.1.4</version>
+	    <scope>test</scope>
+	</dependency>
+	    
+    	<dependency>
+	    <groupId>net.sf.saxon</groupId>
+	    <artifactId>saxon</artifactId>
+	    <version>8.7</version>
+	</dependency>
+    
+    	<dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>5.1.42</version>
+	</dependency>
+    
+    <!-- 用来读取xml文件的,没有就无法读取xml文件,也就无法调取testng.xml -->
+    	<dependency>
+	    <groupId>dom4j</groupId>
+	    <artifactId>dom4j</artifactId>
+	    <version>1.6.1</version>
+	</dependency>
+    
+    
+  </dependencies>
+</project>

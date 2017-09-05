@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name= "seleniumImooc" basedir= "." default="transform">
+<property name= "lib.dir" value= "lib" />
+<path id= "test.classpath" >
+<!-- adding the saxon jar to your classpath -->
+<fileset dir= "${lib.dir}" includes= "*.jar" />
+</path>
+<target name= "transform" >
+<xslt in= "C:/workspace/xinyueone/test-output/testng-results.xml" style= "C:/workspace/xinyueone/test-output/testng-results.xsl"
+out= "C:/workspace/xinyueone/test-output/TestReport/index.html " >
+<!-- you need to specify the directory here again -->
+<param name= "testNgXslt.outputDir" expression= "C:/workspace/xinyueone/test-output/TestReport" />
+<classpath refid= "test.classpath" />
+</xslt>
+</target>
+
+</project>

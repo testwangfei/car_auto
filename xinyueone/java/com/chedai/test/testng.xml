@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="1">
+  
+  <test verbose="10" preserve-order="true" name="test" >  
+     <groups>
+		    <run>
+		      <include name="Init"  />
+		    </run>
+  	</groups>
+ 
+        <classes >        
+         <class name = "com.chedai.test.NewPackTest" />  
+          <class name = "com.chedai.test.CreditEvaluation" /> 
+		 <class name = "com.chedai.test.AuditTest" /> 
+		 <class name = "com.chedai.test.ReportTheContract" /> 
+		 <class name = "com.chedai.test.ContractSignTest" /> 
+		 <class name = "com.chedai.test.ContractReviewTest" /> 
+		  <class name = "com.chedai.test.LoanTest" />  
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

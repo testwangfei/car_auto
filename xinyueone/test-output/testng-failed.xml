@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="test(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="Init"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.chedai.test.LoanTest">
+        <methods>
+          <include name="SendTenderAuditTest"/>
+          <include name="sendApplicationTest"/>
+        </methods>
+      </class> <!-- com.chedai.test.LoanTest -->
+      <class name="com.chedai.test.CreditEvaluation">
+        <methods>
+          <include name="AdminLoginTest"/>
+          <include name="logouttest"/>
+        </methods>
+      </class> <!-- com.chedai.test.CreditEvaluation -->
+      <class name="com.chedai.test.ContractReviewTest">
+        <methods>
+          <include name="ContractSign"/>
+        </methods>
+      </class> <!-- com.chedai.test.ContractReviewTest -->
+      <class name="com.chedai.test.ContractSignTest">
+        <methods>
+          <include name="AdminLoginTest"/>
+          <include name="logouttest"/>
+          <include name="ContractSign"/>
+        </methods>
+      </class> <!-- com.chedai.test.ContractSignTest -->
+      <class name="com.chedai.test.ReportTheContract">
+        <methods>
+          <include name="AdminLoginTest"/>
+          <include name="logouttest"/>
+        </methods>
+      </class> <!-- com.chedai.test.ReportTheContract -->
+      <class name="com.chedai.test.AuditTest">
+        <methods>
+          <include name="AdminLoginTest"/>
+          <include name="logouttest"/>
+        </methods>
+      </class> <!-- com.chedai.test.AuditTest -->
+      <class name="com.chedai.test.NewPackTest">
+        <methods>
+          <include name="AdminLoginTest"/>
+          <include name="logouttest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.chedai.test.NewPackTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
